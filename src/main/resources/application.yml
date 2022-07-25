@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: liempt-spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pliem1991/liempt-property-access-service.git
+    
+server:
+  port: ${port:8888}
