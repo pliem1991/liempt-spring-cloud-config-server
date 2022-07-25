@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pliem1991/liempt-property-access-service.git
+          uri: https://github.com/pliem1991/liempt-environment-config.git
     
 server:
   port: ${port:8888}
